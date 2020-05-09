@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+	<!--Meta-Daten -->
+	<title>Dididav – Wir digitalisieren</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Webseite von David Basler, webedu">
+	<meta name="copyright" content="Digidav GmbH">
+	<meta name="Description" content="Die Firma die dich digitalisiert">
+
+	<!--Favicon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- CSS und Anmiate CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<!-- Font Awesome und Google Fonts -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&display=swap" rel="stylesheet">
+
+	<!-- Diese 4 Zeilen sind wichtig! Unbedingt einbauen! -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- JavaScript -->
+	<script language="javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="./javascript/jquery.counterup.min.js"></script>
+	<script src="./javascript/slick.min.js"></script>
+	<script src="javascript/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script> <link rel="stylesheet" href="fancybox/jquery.fancybox.css">
+	<script src="fancybox/jquery.fancybox.js"></script>
+	<script src="https://wowjs.uk/dist/wow.min.js"></script>
+	<script>
+	new WOW().init();
+	</script>
+
+	<!-- Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162109084-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+
+	function gtag() {
+	dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-162109084-1');
+	</script>
+	
+	
+	
+	
+<!-- bildfilter-referenz -->
+
+	<script language="javascript">
+		$(document).ready(function () {
+			// document ready, jetzt kann es losgehen
+
+
+			//Filter anklicken
+
+			$(".filter").click(function () {
+				var referenzbild = $(this).attr("rel");
+				// alert(welchesthema)
+				// zuerst alle ausblenden
+				$(".bildfilter-referenz").hide();
+				// dann diejenige mit der entsprechen Klasse wieder einblenden
+
+				$("." + referenzbild).fadeIn(300);
+
+			});
+			$(".allezeigen-referenzen").click(function () {
+				$(".bildfilter-referenz").show();
+
+			});
+		}); // Ende document ready
+	</script>
+
+	
+	
+</head>
+
+  <body id="hauptbox">
+    <!-- Navigation Smartphone/Tablet -->
+    <div class="mobil-box-navigation">
+      <div class="haupt-navigation">
+        <a href="index.html" title="Startseite" class="mobil-logo-container">
+          <svg class="mobil-logo" enable-background="new 0 0 109.7 24.9" version="1.1" viewBox="0 0 109.7 24.9" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+            <g class="d_buchstabe">
+              <path class="st0" d="m91.4 16.4h-1v-1h2.2v2.8c-0.7 0.3-1.4 0.5-2.4 0.5-0.9 0-1.7-0.3-1.7-1.6v-2.1c0-1.3 0.5-1.9 1.9-1.9 0.6 0 1.3 0.1 2.1 0.2l-0.2 0.9c-0.8-0.1-1.3-0.2-1.7-0.2-0.7 0-0.8 0.2-0.8 0.9v2c0 0.5 0.2 0.6 0.7 0.6 0.2 0 0.7-0.1 1.1-0.1v-1.1c-0.1 0.1-0.2 0.1-0.2 0.1z" />
+              <path class="st0" d="m98.1 18.7v-2.8c0-0.2-0.1-0.4-0.4-0.4-0.2 0-0.6 0.1-0.8 0.2v2.9h-1.3v-2.8c0-0.2-0.1-0.4-0.3-0.4-0.3 0-0.6 0.1-0.8 0.2v2.9h-1.3v-3.9h0.9l0.1 0.2c0.5-0.2 0.9-0.3 1.3-0.3 0.5 0 0.7 0.1 1 0.4 0.5-0.3 0.9-0.4 1.3-0.4 0.9 0 1.3 0.5 1.3 1.3v2.8h-1.1v0.1h0.1z" />
+              <path class="st0" d="m103.8 17.4c0 1.1-0.7 1.4-1.7 1.4-0.7 0-1.7-0.1-2-0.2v-5.2l1.3-0.2v1.7c0.3-0.1 0.6-0.1 1-0.1 1.1 0 1.4 0.6 1.4 1.4v1.2zm-1.2-1.4c0-0.3-0.1-0.5-0.4-0.5-0.2 0-0.5 0.1-0.7 0.1v2.2c0.2 0.1 0.5 0.1 0.6 0.1 0.5 0 0.6-0.1 0.6-0.5l-0.1-1.4z" />
+              <path class="st0" d="m107.8 18.7v-2.3h-1.9v2.3h-1.2v-5.4h1.3v2.1h1.9v-2.1h1.3v5.4h-1.4z" />
+              <path class="st0" d="m38.6 18.7v-10h2.8v10h-2.8z" />
+              <path class="st0" d="m48.5 14.7h-1.7v-2.2h4.2v5.3c-1.3 0.7-2.8 1-4.7 1-1.7 0-3.4-0.6-3.4-3v-3.7c0-2.4 1-3.5 3.7-3.5 1.1 0 2.6 0.1 4.2 0.4l-0.5 2.2c-1.7-0.3-2.7-0.4-3.5-0.4-1.1 0-1.2 0.4-1.2 1.4v3.6c0 0.8 0.3 0.9 1.1 0.9 0.4 0 1.3-0.1 1.7-0.2l0.1-1.8z" />
+              <path class="st0" d="m52.6 18.7v-10h2.8v10h-2.8z" />
+              <path class="st0" d="m57 18.7v-10h3.9c2.8 0 4.2 0.7 4.2 3.5v3.1c0 2.3-0.7 3.5-4 3.5 0-0.1-4.1-0.1-4.1-0.1zm5.3-6.4c0-0.9 0-1.4-1.2-1.4h-1.4v5.6h1.3c1.1 0 1.3-0.3 1.3-1.1v-3.1z" />
+              <path class="st0" d="m72.1 17h-2.9l-0.6 1.7h-2.9l3.5-10h3.1l3.5 10h-3.1l-0.6-1.7zm-2.5-2.2h2l-1.1-3.7-0.9 3.7z" />
+              <path class="st0" d="m29 18.7v-10h3.9c2.8 0 4.2 0.7 4.2 3.5v3.1c0 2.3-0.7 3.5-4 3.5 0-0.1-4.1-0.1-4.1-0.1zm5.3-6.4c0-0.9 0-1.4-1.2-1.4h-1.4v5.6h1.3c1.1 0 1.3-0.3 1.3-1.1v-3.1z" />
+              <polygon class="st0" points="81.6 7.8 81.4 8.7 79.7 16.3 77.9 8.7 74.8 8.7 78 18.7 81.3 18.7 84.5 8.7 87.9 5.5" />
+            </g>
+            <path class="st0" d="m21.6 23.2l-16.7 1.2c-1.7 0.1-3.1-1.1-3.3-2.8l-1.1-16.7c-0.1-1.7 1.1-3.1 2.8-3.3l16.7-1.2c1.7-0.1 3.1 1.1 3.3 2.8l1.2 16.7c0 1.7-1.2 3.2-2.9 3.3z" />
+            <g class="d_bewegend">
+              <polygon class="d_weiss" points="9.8 13.7 10.1 14.9 14.6 14 14.2 12.2 8.7 13.7 7.4 14.1 8.8 13.9" />
+              <polygon class="d_weiss" points="9.5 12.5 14 11.7 13.5 9.9 8.3 11.3 6.8 11.7 9.2 11.5" />
+              <polygon class="d_weiss" points="8.8 9.3 8.9 10.3 13.5 9.3 13.1 7.5 8.6 8.7 6.1 9.3 8.5 9.4" />
+              <path class="d_weiss" d="m21.3 3c-0.3-0.2-0.7-0.4-1-0.4-2.4-0.3-5.1 0-7.4 0.6l-7.7 2c0.2 0 2.5-0.2 2.5-0.2l0.1 0.7 2.6-0.5 4.6-0.8-5 1.5-4.4 1.3 2.6-0.2 0.3 1 0.5-0.1 4-0.9v-0.5l2-0.6c2.8-0.7 5.6 1.1 6.3 3.8l0.1 0.6c0.7 2.8-1.1 5.6-3.8 6.3l-2.1 0.5h-0.1l-0.1-0.6-3.8 1-3 0.9 2.5-0.2 0.4 1.4 7.5-1.8-10.3 3.7c7.5-1.6 10.9-1.5 13.5-3.2 0 0 0.5-0.3 1.2-1 0.1-0.1 0.3-0.2 0.5-0.4 5.8-8.7-2.5-13.9-2.5-13.9z" />
+              <polygon class="d_weiss" points="10.3 16 10.6 17.3 15 16.3 14.6 14.5 9.7 15.7 7.9 16.2 9.9 16" />
+            </g>
+          </svg>
+        </a>
+        <!--Burgermenü-->
+        <div class="qburger">
+          <a class="icon mobile-navigation-mittig-umschalten hamburger-menu-button" id="hamburger-menu" data-toggle="ham-navigation">
+            <i class="fas fa-bars"></i>
+          </a>
+        </div>
+      </div>
+      <div class="navigation-mittig">
+        <a href="einzelpaket.html" title="Einzelpaket">Einzelpaket</a>
+        <a href="all-inclusiv.html" title="All-Inclusiv">All-Inklusiv</a>
+        <a href="projekte.html" title="Projekte">Projekte</a>
+        <a href="ueber-uns.html" title="Über uns">Über uns</a>
+        <a href="referenzen.html" title="Referenzen">Referenzen</a>
+        <a href="kontakt.html" title="Kontakt">Kontakt</a>
+        <a href="mailto:david.basler@digidav.ch?body=Hallo%20Digidav,%0D%0A%0D%0AIch%20habe%20ein%20Anliegen:" title="E-Mail senden"><i class="fas fa-envelope"></i> Mail direkt</a>
+        <div class="social-mobile">
+          <div>
+            <!--Mail an Digidav -->
+            <a class="mail-mobile" href="mailto:david_basler@gmx.net?subject=Anfrage" title="E-Mail senden"> <i class="fas fa-envelope kleinschrift-impressum-icons"></i>&#160;</a>
+
+            <!--Instagramm von David Basler -->
+            <a href="https://www.instagram.com/dave_basler/?hl=de" target="_blank" title="Instagram"> <i class="fab fa-instagram-square kleinschrift-impressum-icons"></i>&#160;</a>
+
+            <!--Linkedin von David Basler -->
+            <a href="https://www.linkedin.com/in/david-basler-1ab50a154/" target="_blank" title="LinkedIn"> <i class="fab fa-linkedin kleinschrift-impressum-icons"></i>&#160;</a>
+
+            <!--Facebook von David Basler -->
+            <a href="https://www.facebook.com/david.basler.91" target="_blank" title="Facebook"> <i class="fab fa-facebook-square kleinschrift-impressum-icons"></i>&#160;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <!-- Navigation Desktopbildschirm -->
+      <div class="desktop-navigation groessen-begrenzung-1250px">
+        <div id="logo">
+          <a href="index.html" title="Startseite">
+            <svg class="logo-container" enable-background="new 0 0 109.7 24.9" version="1.1" viewBox="0 0 109.7 24.9" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+              <g class="d_buchstabe">
+                <path class="st0" d="m91.4 16.4h-1v-1h2.2v2.8c-0.7 0.3-1.4 0.5-2.4 0.5-0.9 0-1.7-0.3-1.7-1.6v-2.1c0-1.3 0.5-1.9 1.9-1.9 0.6 0 1.3 0.1 2.1 0.2l-0.2 0.9c-0.8-0.1-1.3-0.2-1.7-0.2-0.7 0-0.8 0.2-0.8 0.9v2c0 0.5 0.2 0.6 0.7 0.6 0.2 0 0.7-0.1 1.1-0.1v-1.1c-0.1 0.1-0.2 0.1-0.2 0.1z" />
+                <path class="st0" d="m98.1 18.7v-2.8c0-0.2-0.1-0.4-0.4-0.4-0.2 0-0.6 0.1-0.8 0.2v2.9h-1.3v-2.8c0-0.2-0.1-0.4-0.3-0.4-0.3 0-0.6 0.1-0.8 0.2v2.9h-1.3v-3.9h0.9l0.1 0.2c0.5-0.2 0.9-0.3 1.3-0.3 0.5 0 0.7 0.1 1 0.4 0.5-0.3 0.9-0.4 1.3-0.4 0.9 0 1.3 0.5 1.3 1.3v2.8h-1.1v0.1h0.1z" />
+                <path class="st0" d="m103.8 17.4c0 1.1-0.7 1.4-1.7 1.4-0.7 0-1.7-0.1-2-0.2v-5.2l1.3-0.2v1.7c0.3-0.1 0.6-0.1 1-0.1 1.1 0 1.4 0.6 1.4 1.4v1.2zm-1.2-1.4c0-0.3-0.1-0.5-0.4-0.5-0.2 0-0.5 0.1-0.7 0.1v2.2c0.2 0.1 0.5 0.1 0.6 0.1 0.5 0 0.6-0.1 0.6-0.5l-0.1-1.4z" />
+                <path class="st0" d="m107.8 18.7v-2.3h-1.9v2.3h-1.2v-5.4h1.3v2.1h1.9v-2.1h1.3v5.4h-1.4z" />
+                <path class="st0" d="m38.6 18.7v-10h2.8v10h-2.8z" />
+                <path class="st0" d="m48.5 14.7h-1.7v-2.2h4.2v5.3c-1.3 0.7-2.8 1-4.7 1-1.7 0-3.4-0.6-3.4-3v-3.7c0-2.4 1-3.5 3.7-3.5 1.1 0 2.6 0.1 4.2 0.4l-0.5 2.2c-1.7-0.3-2.7-0.4-3.5-0.4-1.1 0-1.2 0.4-1.2 1.4v3.6c0 0.8 0.3 0.9 1.1 0.9 0.4 0 1.3-0.1 1.7-0.2l0.1-1.8z" />
+                <path class="st0" d="m52.6 18.7v-10h2.8v10h-2.8z" />
+                <path class="st0" d="m57 18.7v-10h3.9c2.8 0 4.2 0.7 4.2 3.5v3.1c0 2.3-0.7 3.5-4 3.5 0-0.1-4.1-0.1-4.1-0.1zm5.3-6.4c0-0.9 0-1.4-1.2-1.4h-1.4v5.6h1.3c1.1 0 1.3-0.3 1.3-1.1v-3.1z" />
+                <path class="st0" d="m72.1 17h-2.9l-0.6 1.7h-2.9l3.5-10h3.1l3.5 10h-3.1l-0.6-1.7zm-2.5-2.2h2l-1.1-3.7-0.9 3.7z" />
+                <path class="st0" d="m29 18.7v-10h3.9c2.8 0 4.2 0.7 4.2 3.5v3.1c0 2.3-0.7 3.5-4 3.5 0-0.1-4.1-0.1-4.1-0.1zm5.3-6.4c0-0.9 0-1.4-1.2-1.4h-1.4v5.6h1.3c1.1 0 1.3-0.3 1.3-1.1v-3.1z" />
+                <polygon class="st0" points="81.6 7.8 81.4 8.7 79.7 16.3 77.9 8.7 74.8 8.7 78 18.7 81.3 18.7 84.5 8.7 87.9 5.5" />
+              </g>
+              <path class="st0" d="m21.6 23.2l-16.7 1.2c-1.7 0.1-3.1-1.1-3.3-2.8l-1.1-16.7c-0.1-1.7 1.1-3.1 2.8-3.3l16.7-1.2c1.7-0.1 3.1 1.1 3.3 2.8l1.2 16.7c0 1.7-1.2 3.2-2.9 3.3z" />
+              <g class="d_bewegend">
+                <polygon class="d_weiss" points="9.8 13.7 10.1 14.9 14.6 14 14.2 12.2 8.7 13.7 7.4 14.1 8.8 13.9" />
+                <polygon class="d_weiss" points="9.5 12.5 14 11.7 13.5 9.9 8.3 11.3 6.8 11.7 9.2 11.5" />
+                <polygon class="d_weiss" points="8.8 9.3 8.9 10.3 13.5 9.3 13.1 7.5 8.6 8.7 6.1 9.3 8.5 9.4" />
+                <path class="d_weiss" d="m21.3 3c-0.3-0.2-0.7-0.4-1-0.4-2.4-0.3-5.1 0-7.4 0.6l-7.7 2c0.2 0 2.5-0.2 2.5-0.2l0.1 0.7 2.6-0.5 4.6-0.8-5 1.5-4.4 1.3 2.6-0.2 0.3 1 0.5-0.1 4-0.9v-0.5l2-0.6c2.8-0.7 5.6 1.1 6.3 3.8l0.1 0.6c0.7 2.8-1.1 5.6-3.8 6.3l-2.1 0.5h-0.1l-0.1-0.6-3.8 1-3 0.9 2.5-0.2 0.4 1.4 7.5-1.8-10.3 3.7c7.5-1.6 10.9-1.5 13.5-3.2 0 0 0.5-0.3 1.2-1 0.1-0.1 0.3-0.2 0.5-0.4 5.8-8.7-2.5-13.9-2.5-13.9z" />
+                <polygon class="d_weiss" points="10.3 16 10.6 17.3 15 16.3 14.6 14.5 9.7 15.7 7.9 16.2 9.9 16" />
+              </g>
+            </svg>
+          </a>
+        </div>
+        <nav>
+          <div id="untermenu-navigation">
+            <a href="angebote.html" title="Angebote">Angebote <i class="fas fa-caret-down"></i></a>
+            <div class="untermenu-navigation-links-ort">
+              <a href="einzelpaket.html" title="Einzelpaket">Einzelpaket</a>
+              <a href="all-inclusiv.html" title="All-Inclusiv">All-Inclusiv</a>
+            </div>
+          </div>
+          <a href="projekte.html" title="Projekte">Projekte</a>
+          <a href="ueber-uns.html" title="Über uns">Über uns</a>
+          <a href="referenzen.html" title="Referenzen" class="aktiv">Referenzen</a>
+          <a href="kontakt.html" title="Kontakt">Kontakt</a>
+          <a href="mailto:david.basler@digidav.ch?body=Hallo%20Digidav,%0D%0A%0D%0AIch%20habe%20ein%20Anliegen:" title="E-Mail senden"><i class="fas fa-envelope"></i> Mail direkt</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="untermenu-bild referenz-slider">
+        <div class="titel-untermenu-negativ groessen-begrenzung-1250px">
+          <h1>Unsere Referenzen<br>Das Echo ist uns sehr wichtig...</h1>
+        </div>
+      </section>
+
+    <div id="filter-navigation-referenzen">
+        <span class="allezeigen-referenzen filter-hover">Alle Referenzen</span><br />
+        <span class="filter filter-hover" rel="referenz-logistik">Logistik</span>
+        &#x007C;
+        <span class="filter filter-hover" rel="referenz-gastronomie">Gastronomie</span>
+        &#x007C;
+        <span class="filter filter-hover" rel="referenz-auf-dem-bau">Auf dem Bau</span>
+		&#x007C;
+        <span class="filter filter-hover" rel="referenz-aviatik">Aviatik</span>
+      </div>
+
+
+		
+	<div class="referenz-bildbox-container referenzen groessen-begrenzung-1250px">
+
+	<!-------------------------
+		Suhrental Airways
+		---------------------->
+	<div class="referenz-bildbox bildfilter-referenz referenz-aviatik" data-aos="fade-in" data-aos-duration="1000">
+		<div class="bildboxtitel">
+			
+		<!-- Fancybox -->	
+		<a href="images/referenzen-seite/referenzbild/suhrentalaviation-bild_referenzaviatik.jpg"
+		data-fancybox="gallerie-aviatik" data-caption="Aviatik: &#124; Die Suhrental Airways mit Sitz in Emmen optimiert durch Digidav Ihre Abläufe im Handling und der Crew">
+		
+		<!-- Bild und Logo-Bild -->		
+		<img src="images/referenzen-seite/referenzbild/suhrentalaviation-bild_referenzaviatik.jpg" alt="Suhrental-Aviation">
+			<div class="referenz-logobox">
+			<img width="200" src="images/referenzen-seite/logos/suhrentalaviation-logo_referenzaviatik.svg">
+			</div>
+			</a>
+			
+		</div>
+	</div>
+		  
+		  
+		  
+	<!-------------------------
+		Arnold Bau
+		---------------------->
+	<div class="referenz-bildbox bildfilter-referenz referenz-auf-dem-bau" data-aos="fade-in" data-aos-duration="1000">
+		<div class="bildboxtitel">
+			
+		<!-- Fancybox -->
+		<a href="images/referenzen-seite/referenzbild/arnold-bild_referenzaufdembau.jpg"
+		data-fancybox="gallerie-auf-dem-bau" data-caption="Auf dem Bau: &#124;
+		Die Arnold Bau AG wurde dank der Digitalisierung von Digidav schneller und effizienter">
+		
+		<!-- Bild und Logo-Bild -->		
+ 		<img src="images/referenzen-seite/referenzbild/arnold-bild_referenzaufdembau.jpg" alt="Arnold Bau">
+			<div class="referenz-logobox">
+			<img width="200" src="images/referenzen-seite/logos/arnold-logo_referenzaufdembau.svg">
+			</div>
+			</a>
+			
+		</div>
+	</div>
+		  
+		  
+		  
+	<!-------------------------
+		Sursee Ship
+		---------------------->
+	<div class="referenz-bildbox bildfilter-referenz referenz-logistik" data-aos="fade-in" data-aos-duration="1000">
+		<div class="bildboxtitel">
+			
+		<!-- Fancybox -->		
+		<a href="images/referenzen-seite/referenzbild/sursee-ship-bild_referenzlogistik.jpg"
+		data-fancybox="gallerie-logistik" data-caption="Logistik: &#124;
+		Die Sursee Ship AG konnte durch Digidav Ihren Umsatz um bis zu 10 Prozent steigern">
+			
+		<!-- Bild und Logo-Bild -->		
+		<img src="images/referenzen-seite/referenzbild/sursee-ship-bild_referenzlogistik.jpg" alt="Sursee Ship">
+			<div class="referenz-logobox">
+			<img width="200" src="images/referenzen-seite/logos/sursee-ship_referenzlogistik.svg">
+			</div>
+			</a>
+			
+		</div>
+	</div>
+			  
+		  
+		  
+	<!-------------------------
+		WMP 27 Airways
+		---------------------->
+	<div class="referenz-bildbox bildfilter-referenz referenz-aviatik" data-aos="fade-in" data-aos-duration="1000">
+		<div class="bildboxtitel">
+			
+		<!-- Fancybox -->	
+		<a href="images/referenzen-seite/referenzbild/wmp27-bild_referenzaviatik.jpg"
+		data-fancybox="gallerie-aviatik" data-caption="Aviatik: &#124;
+		Die WMP27 konnte über das Adobe-Connect auch Schulen direkt rund um die Welt durchführen.">
+		
+		<!-- Bild und Logo-Bild -->		
+		<img src="images/referenzen-seite/referenzbild/wmp27-bild_referenzaviatik.jpg" alt="WMP27-Airways">
+			<div class="referenz-logobox">
+			<img width="200" src="images/referenzen-seite/logos/wmp27-logo_referenzaviatik.svg">
+			</div>
+			</a>
+			
+		</div>
+	</div>
+			  
+		  
+		 
+	<!-------------------------
+		Basler Bäckerei
+		---------------------->
+	<div class="referenz-bildbox bildfilter-referenz referenz-gastronomie" data-aos="fade-in" data-aos-duration="1000">
+		<div class="bildboxtitel">
+			
+			<!-- Fancybox -->	
+			<a href="images/referenzen-seite/referenzbild/basler-baeckerei-bild_referenzgastronomie.jpg"
+	   		data-fancybox="gallerie-gastronomie" data-caption="Gastronomie: &#124;
+			Die Zeit für den Backofen im Backofen kann durch die Digitalisierung von Digidav per Tablet und App gesteuert werden.">
+			
+			<!-- Bild und Logo-Bild -->			
+			<img src="images/referenzen-seite/referenzbild/basler-baeckerei-bild_referenzgastronomie.jpg" alt="Basler-Bäckerei">
+			<div class="referenz-logobox">
+			<img width="200" src="images/referenzen-seite/logos/basler-baeckerei-logo_referenzgastronomie.svg">
+			</div>
+			</a>
+			
+		</div>
+	</div>
+		  
+		  
+		  
+	<!-------------------------
+		Elada Restaurant
+		---------------------->
+	 <div class="referenz-bildbox bildfilter-referenz referenz-gastronomie" data-aos="fade-in" data-aos-duration="1000">
+		<div class="bildboxtitel">
+			
+			<!-- Fancybox -->	
+			<a href="images/referenzen-seite/referenzbild/elada-bild_referenzgastronomie.jpg"
+			data-fancybox="gallerie-gastronomie" data-caption="Gastronomie: &#124;
+			Das Elada Restaurant hat mit Hilfe von Digidav sämtliche Abläufe wie das Kassensystem oder den Online-Shop sowie das Take-Away optimiert.">
+			
+			<!-- Bild und Logo-Bild -->			
+			<img src="images/referenzen-seite/referenzbild/elada-bild_referenzgastronomie.jpg" alt="Elada Restaurant">
+			<div class="referenz-logobox">
+			<img width="200" src="images/referenzen-seite/logos/elada-logo_referenzgastronomie.svg">
+			</div>	
+			</a>
+			
+		</div>
+	</div>
+		  
+		  
+		 
+	<!-------------------------
+		Jans Bau
+		---------------------->
+	<div class="referenz-bildbox bildfilter-referenz referenz-auf-dem-bau" data-aos="fade-in" data-aos-duration="1000">
+		<div class="bildboxtitel">
+			
+			<!-- Fancybox -->	
+			<a href="images/referenzen-seite/referenzbild/jansbau-bild_referenzaufdembau.jpg"
+			data-fancybox="gallerie-auf-dem-bau" data-caption="Auf dem Bau: &#124;
+			Auch der Jan kann jubeln. Dank der Digitalisierung von Digidav werden Baustellenmängel schneller erkannt und behoben.">
+				
+			<!-- Bild und Logo-Bild -->		
+			<img src="images/referenzen-seite/referenzbild/jansbau-bild_referenzaufdembau.jpg" alt="Jans Bau AG">
+			<div class="referenz-logobox">
+			<img width="200" src="images/referenzen-seite/logos/jansbau-logo_referenzaufdembau.svg">
+			</div>
+			</a>
+			
+		</div>
+	</div>
+		  
+		  
+		
+	<!-------------------------
+		David Train Service
+		---------------------->
+	<div class="referenz-bildbox bildfilter-referenz referenz-logistik" data-aos="fade-in" data-aos-duration="1000">
+		<div class="bildboxtitel">
+			
+			<!-- Fancybox -->	
+			<a href="images/referenzen-seite/referenzbild/david-train-service-bild_referenzlogistik.jpg"
+			data-fancybox="gallerie-logistik" data-caption="Logistik: &#124;
+			Mit David Train werden die Logistik-Inhalte gestaffelter und somit schneller transportiert. Dank Digidav!">
+			
+			<!-- Bild und Logo-Bild -->		
+			<img src="images/referenzen-seite/referenzbild/david-train-service-bild_referenzlogistik.jpg" alt="David Train Service" />
+			<div class="referenz-logobox">
+			<img width="200" src="images/referenzen-seite/logos/david-train-service-logo_referenzlogistik.svg">
+			</div>
+			</a>
+			
+		</div>
+	</div>
+		  
+		  
+			
+	<!-------------------------
+		Basler Logistik
+		---------------------->
+	<div class="referenz-bildbox bildfilter-referenz referenz-logistik" data-aos="fade-in" data-aos-duration="1000">
+		<div class="bildboxtitel">
+			
+			<!-- Fancybox -->	
+			<a href="images/referenzen-seite/referenzbild/basler-bild_referenzlogistik.jpg"
+			data-fancybox="gallerie-logistik" data-caption="Logistik: &#124;
+			Die Basler Logistik mit Sitz in Sursee optimierte Ihren Warenfluss und entwarf automatische Lagerlösungen.">
+			
+			<!-- Bild und Logo-Bild -->		
+			<img src="images/referenzen-seite/referenzbild/basler-bild_referenzlogistik.jpg" alt="Basler Logistik">
+			<div class="referenz-logobox">
+			<img width="200" src="images/referenzen-seite/logos/basler-logo_referenzlogistik.svg">
+			</div>
+			</a>
+			
+		</div>
+	</div>
+		
+ </div>
+		
+ </main>
+
+  <footer class="kleinschrift-impressum">
+      <div>
+        &copy; Projekt David &VerticalLine; Alle Rechte vorbehalten &VerticalLine;
+        <a href="impressum-datenschutz.html">Impressum &amp; Datenschutz</a>
+      </div>
+	  
+		
+		<div>
+			<!--Mail an Digidav -->
+			<a href="mailto:david_basler@gmx.net?subject=Anfrage" title="E-Mail senden">
+				<i class="fas fa-envelope kleinschrift-impressum-icons"></i>&#160;</a>
+			
+			<!--Instagramm von David Basler -->
+			<a href="https://www.instagram.com/dave_basler/?hl=de" target="_blank" title="Instagram">
+				<i class="fab fa-instagram-square kleinschrift-impressum-icons"></i>&#160;</a>
+			
+			<!--Linkedin von David Basler -->
+			<a href="https://www.linkedin.com/in/david-basler-1ab50a154/" target="_blank" title="LinkedIn">
+				<i class="fab fa-linkedin kleinschrift-impressum-icons"></i>&#160;</a>
+			
+			<!--Facebook von David Basler -->
+			<a href="https://www.facebook.com/david.basler.91" target="_blank" title="Facebook">
+				<i class="fab fa-facebook-square kleinschrift-impressum-icons"></i>&#160;</a>
+		</div>
+	</footer>
+	  
+  </body>
+</html>

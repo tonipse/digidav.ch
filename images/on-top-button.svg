@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 29 26.9" style="enable-background:new 0 0 29 26.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:url(#SVGID_1_);stroke-width:0.25;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:url(#SVGID_2_);stroke-width:1.25;stroke-miterlimit:10;}
+</style>
+<radialGradient id="SVGID_1_" cx="14.4" cy="777.2397" r="7.1328" gradientTransform="matrix(1 0 0 1 0 -764)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#003551"/>
+	<stop  offset="0.1871" style="stop-color:#002C50"/>
+	<stop  offset="0.5226" style="stop-color:#00234E"/>
+	<stop  offset="1" style="stop-color:#00204E"/>
+</radialGradient>
+<circle class="st0" cx="14.4" cy="13.2" r="7"/>
+<radialGradient id="SVGID_2_" cx="14.5192" cy="976.5383" r="3.3119" gradientTransform="matrix(1 0 0 0.7933 0 -761.9754)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#003551"/>
+	<stop  offset="0.1871" style="stop-color:#002C50"/>
+	<stop  offset="0.5226" style="stop-color:#00234E"/>
+	<stop  offset="1" style="stop-color:#00204E"/>
+</radialGradient>
+<polyline class="st1" points="11.7,15 13.1,13.1 14.5,11.1 17.4,15 "/>
+</svg>
